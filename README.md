@@ -1,2 +1,5 @@
-# csd-402
-Repository for csd 402
+# Repository for CSD 402
+
+## Collaborators 
+- David Ostrowski
+- Gabe Conner
