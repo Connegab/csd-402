@@ -7,10 +7,10 @@ public class NestedPattern {
     public static void main(String[] args) {
         int rows = 7;
 
-        // Outer loop for rows
+        // The outer loop for rows
         for (int i = 1; i <= rows; i++) {
 
-            // Print leading spaces to shape pyramid
+            // It will print leading spaces to shape the pyramid
             for (int s = rows; s > i; s--) {
                 System.out.print("   "); // 3 spaces
             }
@@ -18,7 +18,7 @@ public class NestedPattern {
             // Print increasing numbers (powers of 2)
             int value = 1;
             for (int j = 1; j <= i; j++) {
-                // Pad numbers less than 10 with extra space for alignment
+                // The program will pad the numbers less than 10 with extra space for alignment
                 if (value < 10) {
                     System.out.print(value + "  "); // 2 spaces after single-digit number
                 } else {
@@ -27,7 +27,7 @@ public class NestedPattern {
                 value *= 2;
             }
 
-            // Print decreasing numbers
+            // It will print decreasing numbers
             value /= 2; // step back one level
             for (int j = i - 1; j >= 1; j--) {
                 value /= 2;
@@ -38,7 +38,7 @@ public class NestedPattern {
                 }
             }
 
-            // Print the @ symbol aligned
+            // Finally the @ symbol will get added.
             System.out.println("@");
         }
     }
